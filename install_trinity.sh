@@ -7,6 +7,6 @@ git submodule update --init --recursive
 make
 make plugins
 make install
-sudo apt install -y samtools jellyfish bowtie2 salmon
+sudo apt install -y cmake samtools jellyfish bowtie2 salmon libzma-dev autoconf libproxy-dev libz-dev
 echo 'export TRINITY_HOME=/usr/local/bin/trinityrnaseq' >> ~/.bashrc
 echo 'alias Trinity=$TRINITY_HOME/Trinity' >> ~/.bashrc
