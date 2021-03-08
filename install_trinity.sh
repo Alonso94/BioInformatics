@@ -1,5 +1,5 @@
 #!/bin/bash
-sudo apt install -y cmake samtools jellyfish bowtie2 salmon libzma-dev autoconf libproxy-dev libz-dev
+sudo apt install -y cmake samtools jellyfish bowtie2 salmon libbz2-dev liblzma-dev autoconf libproxy-dev libz-dev
 git clone https://github.com/trinityrnaseq/trinityrnaseq.git
 cd trinityrnaseq
 git checkout tags/v2.11.0
