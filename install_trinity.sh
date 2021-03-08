@@ -9,3 +9,6 @@ make plugins
 make install
 echo 'export TRINITY_HOME=/usr/local/bin/trinityrnaseq' >> ~/.bashrc
 echo 'alias Trinity=$TRINITY_HOME/Trinity' >> ~/.bashrc
+sudo apt install -y python3-pip default-jre
+pip3 install numpy
+
